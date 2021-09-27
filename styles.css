@@ -16,13 +16,13 @@ pre{
 .navigation{
     padding:40px; 
     text-align: center;
-    background-color: yellow;
+    background-color: #FCD34D;
     border-radius: 5rem 5rem 0rem 0rem;
 }
 
 .hero{
     text-align: center;
-    background-color: yellow;
+    background-color: #FCD34D;
     margin-top: 0%;
 }
 
@@ -67,7 +67,7 @@ h3{
 }
 
 .footer{
-    background-color: #2563EB;
+    background-color: #1D4ED8;
     padding: 1rem 0rem;
     text-align: center;
     margin-top: 1rem;
