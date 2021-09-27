@@ -4,37 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
 
     <title>Banana Speak</title>
 
-    <style>
-        textarea{
-            width: 7rem;
-            height: 5rem;
-            padding:1rem;
-            margin: 1rem;
-        }
-        #txt-output{
-            border: 1px solid;
-            width: 7rem;
-            height: 5rem;
-            padding:1rem;
-            margin: 1rem;
-        }
-    </style>
 </head>
 <body>
-    
-<h1>Talk Banana</h1>
 
-<textarea id="txt-input" placeholder="Write your text Here!!"></textarea>
+    <nav class="navigation">
+       
+    </nav>
 
-<button id="btn-translate">Translate</button>
+    <header >
+        <h1 class="hero">Welcome to Minion's World</h1>
+    </header>
 
-<h3>Output will come here 👇</h3>
-<div id="txt-output"></div>
+    <section class="section-yellow">
+            <textarea id="txt-input" placeholder="Write your text Here!!"></textarea>
+    </section>
 
+    <button id="btn-translate">Translate</button>
+
+    <section class="section-blue">
+        <h3>In Minion's Language 👇</h3>
+            <div id="txt-output"></div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-header">Connect with me!!</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="links" href="/">Linkedin</a></li>
+            <li class="list-item-inline"><a class="links" href="/">Twitter</a></li>
+            <li class="list-item-inline"><a class="links" href="/">Github</a></li>
+        </ul>
+    </footer>
 
 <script src="app.js" type="text/javascript"></script>
+
 </body>
 </html>
